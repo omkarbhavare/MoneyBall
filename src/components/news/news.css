@@ -1,0 +1,81 @@
+h1{
+  text-align: center;
+}
+.news-container{
+   display: inline-flex;
+   padding: 0 23px ;
+  justify-content: space-between;
+}
+
+.card{
+    border: 2px solid red;
+    height: 27rem;
+    width: 18rem;
+    background-color: rgb(209, 196, 255);
+    padding: 5%;
+    margin: 5px 5px;
+}
+
+img{
+    height: 27rem;
+    width: 18rem;
+    cursor: pointer;
+}
+
+img:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, -2px, 0);
+  }
+
+
+
+/* CSS */
+button {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 2px 1px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.news-button button{
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
